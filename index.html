@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="main rounded-lg ">
+
+                    <!-- <div class="mg">
+                        <input id="result" type="text" name="" id="">
+                    </div> -->
+
+                    <div class="input-group mb-3">
+                        <!-- <div class="input-group-prepend">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                        </div> -->
+                        <input id="result" type="text" class="form-control ip-wh" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      </div>
+
+
+<div class="mg-right " >
+    <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="sqrt()">&#8730</button>
+
+    <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="powerSqr()">x^2</button>
+    <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="cube()">x^3</button>
+    <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="del()">del</button>
+
+
+</div>
+
+
+
+
+                    <div  class="mg mg-right" >
+                        <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('7')">7</button>
+                        <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('8')" >8</button>
+                    <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('9')">9</button>
+                    <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="getNumber('+')">+</button>
+
+                    </div>
+
+                    <div class="mg mg-right">
+                        <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('4')">4</button>
+                        <button type="button" class="btn btn-secondary bg-gradient-secondary botn bt-mg" onclick="getNumber('5')">5</button>
+                    <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('6')">6</button>
+                   <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="getNumber('-')">-</button> 
+                    
+                
+                </div>
+
+                    <div class="mg mg-right">
+                        <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('1')">1</button>
+                        <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('2')">2</button>
+                    <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('3')">3</button>
+                    <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="getNumber('*')">*</button>
+                    </div>
+
+                    <div class="mg mg-right" style="margin-bottom: 4px;">
+                        <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="clearResult()">C</button>
+                        <button type="button" class="btn btn-secondary botn bt-mg" onclick="getNumber('0')">0</button>
+                        <button type="button" class="btn btn-secondary botn bt-mg bg-info" onclick="getNumber('/')">/</button>
+                    <button onclick="getResult()" type="button" class="btn btn-secondary botn bt-mg bg-info">=</button>
+
+                
+                </div>
+
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+<script src="app.js">
+</script>
+</html>
